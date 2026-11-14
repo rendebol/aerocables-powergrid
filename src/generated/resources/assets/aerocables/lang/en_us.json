@@ -1,0 +1,20 @@
+{
+  "aerocables.ponder.connector.header": "Using cable connectors",
+  "aerocables.ponder.connector.text_1": "Place the connector next to a Rope Winch ...",
+  "aerocables.ponder.connector.text_2": "... or a Rope Connector.",
+  "aerocables.ponder.connector.text_3": "Use a cable to connect the connectors",
+  "aerocables.ponder.connector.text_4": "Cables work with Winches",
+  "block.aerocables.ae_connector": "ME Cable Connector",
+  "block.aerocables.cc_connector": "CC Network Connector",
+  "block.aerocables.connector": "Cable Connector",
+  "block.aerocables.fe_connector": "Energy Cable Connector",
+  "block.aerocables.rs_connector": "RS Network Connector",
+  "config.aerocables.fe_cable_transfer": "Energy Cable Transfer Rate (FE/t)",
+  "item.aerocables.ae_cable": "ME Cable Spool",
+  "item.aerocables.cable": "Cable Spool",
+  "item.aerocables.cc_cable": "CC Cable Spool",
+  "item.aerocables.fe_cable": "Energy Cable Spool",
+  "item.aerocables.rs_cable": "RS Cable Spool",
+  "itemGroup.aerocables.aerocables": "Aerocables",
+  "tooltip.aerocables.feCableTransferRate": "Transfer Rate: %d FE/t"
+}

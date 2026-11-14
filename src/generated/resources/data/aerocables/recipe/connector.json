@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create:copper_sheet"
+    },
+    {
+      "item": "simulated:rope_connector"
+    },
+    {
+      "tag": "minecraft:terracotta"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "aerocables:connector"
+  }
+}

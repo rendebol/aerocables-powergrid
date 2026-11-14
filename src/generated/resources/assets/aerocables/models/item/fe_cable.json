@@ -1,0 +1,6 @@
+{
+  "parent": "aerocables:item/cable_base",
+  "textures": {
+    "cable": "aerocables:block/fe_cable"
+  }
+}

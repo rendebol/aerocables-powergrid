@@ -1,0 +1,52 @@
+{
+	"variants": {
+		"axis_along_first=false,facing=down": {
+			"model": "aerocables:block/pg_connector/horizontal",
+			"x": 270,
+			"y": 90
+		},
+		"axis_along_first=false,facing=up": {
+			"model": "aerocables:block/pg_connector/horizontal",
+			"x": 90,
+			"y": 90
+		},
+		"axis_along_first=false,facing=north": {
+			"model": "aerocables:block/pg_connector/vertical",
+			"y": 180
+		},
+		"axis_along_first=false,facing=south": {
+			"model": "aerocables:block/pg_connector/vertical"
+		},
+		"axis_along_first=false,facing=west": {
+			"model": "aerocables:block/pg_connector/horizontal",
+			"y": 90
+		},
+		"axis_along_first=false,facing=east": {
+			"model": "aerocables:block/pg_connector/horizontal",
+			"y": 270
+		},
+		"axis_along_first=true,facing=down": {
+			"model": "aerocables:block/pg_connector/horizontal",
+			"x": 270
+		},
+		"axis_along_first=true,facing=up": {
+			"model": "aerocables:block/pg_connector/horizontal",
+			"x": 90
+		},
+		"axis_along_first=true,facing=north": {
+			"model": "aerocables:block/pg_connector/horizontal",
+			"y": 180
+		},
+		"axis_along_first=true,facing=south": {
+			"model": "aerocables:block/pg_connector/horizontal"
+		},
+		"axis_along_first=true,facing=west": {
+			"model": "aerocables:block/pg_connector/vertical",
+			"y": 90
+		},
+		"axis_along_first=true,facing=east": {
+			"model": "aerocables:block/pg_connector/vertical",
+			"y": 270
+		}
+	}
+}

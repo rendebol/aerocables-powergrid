@@ -1,0 +1,6 @@
+{
+  "parent": "aerocables:block/ae_connector/vertical",
+  "textures": {
+    "base": "aerocables:block/ae_connector_on"
+  }
+}

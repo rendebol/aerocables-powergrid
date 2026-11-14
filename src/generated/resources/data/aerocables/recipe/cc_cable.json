@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "-": {
+      "item": "aerocables:cable"
+    },
+    "C": {
+      "item": "computercraft:cable"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "C-C",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "aerocables:cc_cable"
+  }
+}

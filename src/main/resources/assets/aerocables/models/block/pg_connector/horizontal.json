@@ -1,0 +1,554 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Aero Cables connector (Farcr/tom5454) + Power Grid terminals",
+	"parent": "block/block",
+	"texture_size": [
+		32,
+		32
+	],
+	"textures": {
+		"1": "simulated:block/rope_winch/winch",
+		"2": "aerocables:block/connector",
+		"3": "aerocables:block/plug",
+		"particle": "create:block/industrial_iron_block",
+		"pos": "aerocables:block/pg_cable_positive",
+		"neg": "aerocables:block/pg_cable_negative",
+		"pg": "powergrid:block/device_connector"
+	},
+	"elements": [
+		{
+			"name": "rope",
+			"from": [
+				6,
+				6,
+				4
+			],
+			"to": [
+				10,
+				10,
+				7
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "x",
+				"origin": [
+					8,
+					8,
+					3
+				]
+			},
+			"faces": {
+				"east": {
+					"uv": [
+						15,
+						3,
+						11,
+						0
+					],
+					"rotation": 90,
+					"texture": "#3"
+				},
+				"south": {
+					"uv": [
+						4,
+						4,
+						0,
+						0
+					],
+					"rotation": 90,
+					"texture": "#3"
+				},
+				"west": {
+					"uv": [
+						15,
+						3,
+						11,
+						0
+					],
+					"rotation": 270,
+					"texture": "#3"
+				},
+				"up": {
+					"uv": [
+						15,
+						3,
+						11,
+						0
+					],
+					"texture": "#3"
+				},
+				"down": {
+					"uv": [
+						11,
+						0,
+						15,
+						3
+					],
+					"texture": "#3"
+				}
+			}
+		},
+		{
+			"from": [
+				7,
+				7,
+				7
+			],
+			"to": [
+				9,
+				9,
+				9
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "x",
+				"origin": [
+					7,
+					9,
+					7
+				]
+			},
+			"faces": {
+				"east": {
+					"uv": [
+						5,
+						0,
+						7,
+						2
+					],
+					"rotation": 270,
+					"texture": "#3"
+				},
+				"south": {
+					"uv": [
+						8,
+						0,
+						10,
+						2
+					],
+					"texture": "#3"
+				},
+				"west": {
+					"uv": [
+						5,
+						0,
+						7,
+						2
+					],
+					"rotation": 90,
+					"texture": "#3"
+				},
+				"up": {
+					"uv": [
+						5,
+						0,
+						7,
+						2
+					],
+					"rotation": 180,
+					"texture": "#3"
+				},
+				"down": {
+					"uv": [
+						5,
+						0,
+						7,
+						2
+					],
+					"texture": "#3"
+				}
+			}
+		},
+		{
+			"name": "base",
+			"from": [
+				2.01,
+				2.01,
+				-2.99
+			],
+			"to": [
+				13.99,
+				13.99,
+				-1.01
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "z",
+				"origin": [
+					8,
+					8,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						8,
+						6,
+						14,
+						12
+					],
+					"rotation": 90,
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [
+						8,
+						12.5,
+						14,
+						11.5
+					],
+					"rotation": 90,
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [
+						8,
+						6,
+						14,
+						12
+					],
+					"rotation": 270,
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [
+						8,
+						12.5,
+						14,
+						11.5
+					],
+					"rotation": 270,
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [
+						8,
+						12.5,
+						14,
+						11.5
+					],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [
+						8,
+						11.5,
+						14,
+						12.5
+					],
+					"texture": "#1"
+				}
+			}
+		},
+		{
+			"from": [
+				5,
+				5,
+				-1
+			],
+			"to": [
+				11,
+				11,
+				5
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					5,
+					5,
+					0
+				]
+			},
+			"faces": {
+				"east": {
+					"uv": [
+						10,
+						0,
+						16,
+						6
+					],
+					"texture": "#2"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						6,
+						6
+					],
+					"texture": "#2"
+				},
+				"west": {
+					"uv": [
+						10,
+						0,
+						16,
+						6
+					],
+					"texture": "#2"
+				},
+				"up": {
+					"uv": [
+						10,
+						0,
+						16,
+						6
+					],
+					"texture": "#2"
+				},
+				"down": {
+					"uv": [
+						10,
+						0,
+						16,
+						6
+					],
+					"rotation": 180,
+					"texture": "#2"
+				}
+			}
+		},
+		{
+			"from": [
+				4,
+				6.5,
+				0.5
+			],
+			"to": [
+				5,
+				9.5,
+				3.5
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						3,
+						3
+					],
+					"texture": "#pos"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						3,
+						3
+					],
+					"texture": "#pos"
+				},
+				"west": {
+					"uv": [
+						0,
+						0,
+						3,
+						3
+					],
+					"texture": "#pos"
+				},
+				"up": {
+					"uv": [
+						0,
+						0,
+						3,
+						3
+					],
+					"texture": "#pos"
+				},
+				"down": {
+					"uv": [
+						0,
+						0,
+						3,
+						3
+					],
+					"texture": "#pos"
+				}
+			},
+			"name": "terminal_positive_collar"
+		},
+		{
+			"from": [
+				3,
+				7,
+				1
+			],
+			"to": [
+				4,
+				9,
+				3
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						5,
+						13,
+						7,
+						15
+					],
+					"texture": "#pg"
+				},
+				"south": {
+					"uv": [
+						5,
+						13,
+						7,
+						15
+					],
+					"texture": "#pg"
+				},
+				"west": {
+					"uv": [
+						5,
+						13,
+						7,
+						15
+					],
+					"texture": "#pg"
+				},
+				"up": {
+					"uv": [
+						5,
+						13,
+						7,
+						15
+					],
+					"texture": "#pg"
+				},
+				"down": {
+					"uv": [
+						5,
+						13,
+						7,
+						15
+					],
+					"texture": "#pg"
+				}
+			},
+			"name": "terminal_positive"
+		},
+		{
+			"from": [
+				11,
+				6.5,
+				0.5
+			],
+			"to": [
+				12,
+				9.5,
+				3.5
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						3,
+						3
+					],
+					"texture": "#neg"
+				},
+				"east": {
+					"uv": [
+						0,
+						0,
+						3,
+						3
+					],
+					"texture": "#neg"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						3,
+						3
+					],
+					"texture": "#neg"
+				},
+				"up": {
+					"uv": [
+						0,
+						0,
+						3,
+						3
+					],
+					"texture": "#neg"
+				},
+				"down": {
+					"uv": [
+						0,
+						0,
+						3,
+						3
+					],
+					"texture": "#neg"
+				}
+			},
+			"name": "terminal_negative_collar"
+		},
+		{
+			"from": [
+				12,
+				7,
+				1
+			],
+			"to": [
+				13,
+				9,
+				3
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						5,
+						13,
+						7,
+						15
+					],
+					"texture": "#pg"
+				},
+				"east": {
+					"uv": [
+						5,
+						13,
+						7,
+						15
+					],
+					"texture": "#pg"
+				},
+				"south": {
+					"uv": [
+						5,
+						13,
+						7,
+						15
+					],
+					"texture": "#pg"
+				},
+				"up": {
+					"uv": [
+						5,
+						13,
+						7,
+						15
+					],
+					"texture": "#pg"
+				},
+				"down": {
+					"uv": [
+						5,
+						13,
+						7,
+						15
+					],
+					"texture": "#pg"
+				}
+			},
+			"name": "terminal_negative"
+		}
+	]
+}

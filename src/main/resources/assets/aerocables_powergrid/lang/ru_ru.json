@@ -1,0 +1,7 @@
+{
+	"block.aerocables.pg_connector": "Коннектор кабеля Power Grid",
+	"item.aerocables.pg_cable": "Катушка кабеля Power Grid",
+	"tooltip.aerocables.pgCable": "Два провода (+ и −) вдоль троса. Подключи провода Power Grid к клеммам обоих коннекторов.",
+	"tooltip.aerocables.pgCableResistance": "Сопротивление: %s Ом на блок на провод",
+	"config.aerocables.pg_cable_resistance": "Сопротивление кабеля Power Grid (Ом на блок)"
+}

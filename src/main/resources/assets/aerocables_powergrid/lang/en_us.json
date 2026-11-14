@@ -1,0 +1,7 @@
+{
+	"block.aerocables.pg_connector": "Power Grid Cable Connector",
+	"item.aerocables.pg_cable": "Power Grid Cable Spool",
+	"tooltip.aerocables.pgCable": "Two wires (+ and -) along a rope. Connect Power Grid wires to the terminals of both connectors.",
+	"tooltip.aerocables.pgCableResistance": "Resistance: %s Ω per block per wire",
+	"config.aerocables.pg_cable_resistance": "Power Grid Cable Resistance (Ω per block)"
+}

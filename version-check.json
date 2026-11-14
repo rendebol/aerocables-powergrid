@@ -1,0 +1,12 @@
+{
+	"homepage": "https://curseforge.com/minecraft/mc-mods/create-aero-cables",
+	"promos": {
+		"1.21.1-latest": "0.4.0"
+	},
+	"1.21.1": {
+		"0.4.0": "Added CC:Tweaked cables (PR #5)\nAdded Chinese translations (PR #11)",
+		"0.3.0": "Added Refined Storage Cables\n\nFixed crash with cables if the connector is broken (Closes #3)\nFixed crash if Applied Energistics is missing (Closes #1)",
+		"0.2.0": "Added ponder\nAdded cable connection visual\nAdded config for energy cable transfer rate",
+		"0.1.0": "First release"
+	}
+}

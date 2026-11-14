@@ -1,0 +1,20 @@
+{
+  "aerocables.ponder.connector.header": "sɹoʇɔǝuuoɔ ǝןqɐɔ buıs∩",
+  "aerocables.ponder.connector.text_1": "˙˙˙ ɥɔuıM ǝdoᴚ ɐ oʇ ʇxǝu ɹoʇɔǝuuoɔ ǝɥʇ ǝɔɐןԀ",
+  "aerocables.ponder.connector.text_2": "˙ɹoʇɔǝuuoƆ ǝdoᴚ ɐ ɹo ˙˙˙",
+  "aerocables.ponder.connector.text_3": "sɹoʇɔǝuuoɔ ǝɥʇ ʇɔǝuuoɔ oʇ ǝןqɐɔ ɐ ǝs∩",
+  "aerocables.ponder.connector.text_4": "sǝɥɔuıM ɥʇıʍ ʞɹoʍ sǝןqɐƆ",
+  "block.aerocables.ae_connector": "ɹoʇɔǝuuoƆ ǝןqɐƆ ƎW",
+  "block.aerocables.cc_connector": "ɹoʇɔǝuuoƆ ʞɹoʍʇǝN ƆƆ",
+  "block.aerocables.connector": "ɹoʇɔǝuuoƆ ǝןqɐƆ",
+  "block.aerocables.fe_connector": "ɹoʇɔǝuuoƆ ǝןqɐƆ ʎbɹǝuƎ",
+  "block.aerocables.rs_connector": "ɹoʇɔǝuuoƆ ʞɹoʍʇǝN Sᴚ",
+  "config.aerocables.fe_cable_transfer": ")ʇ/ƎℲ( ǝʇɐᴚ ɹǝɟsuɐɹ⟘ ǝןqɐƆ ʎbɹǝuƎ",
+  "item.aerocables.ae_cable": "ןoodS ǝןqɐƆ ƎW",
+  "item.aerocables.cable": "ןoodS ǝןqɐƆ",
+  "item.aerocables.cc_cable": "ןoodS ǝןqɐƆ ƆƆ",
+  "item.aerocables.fe_cable": "ןoodS ǝןqɐƆ ʎbɹǝuƎ",
+  "item.aerocables.rs_cable": "ןoodS ǝןqɐƆ Sᴚ",
+  "itemGroup.aerocables.aerocables": "sǝןqɐɔoɹǝⱯ",
+  "tooltip.aerocables.feCableTransferRate": "ʇ/ƎℲ %d :ǝʇɐᴚ ɹǝɟsuɐɹ⟘"
+}

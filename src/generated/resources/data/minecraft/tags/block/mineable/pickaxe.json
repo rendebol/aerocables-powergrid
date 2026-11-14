@@ -1,0 +1,21 @@
+{
+  "values": [
+    "aerocables:connector",
+    {
+      "id": "aerocables:fe_connector",
+      "required": false
+    },
+    {
+      "id": "aerocables:ae_connector",
+      "required": false
+    },
+    {
+      "id": "aerocables:rs_connector",
+      "required": false
+    },
+    {
+      "id": "aerocables:cc_connector",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "R": {
+      "item": "simulated:rope_coupling"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "pattern": [
+    "CRR",
+    "RSR",
+    "RRC"
+  ],
+  "result": {
+    "count": 4,
+    "id": "aerocables:cable"
+  }
+}

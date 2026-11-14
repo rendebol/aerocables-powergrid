@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "-": {
+      "item": "aerocables:cable"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    }
+  },
+  "pattern": [
+    "CRC",
+    "R-R",
+    "CRC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "aerocables:fe_cable"
+  }
+}

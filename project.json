@@ -1,0 +1,35 @@
+{
+  "type": "neoforge",
+  "name": "aerocables",
+  "mcVer": "1.21",
+  "verId": "1.21",
+  "display": "[NeoForge] Create: Aero Cables 1.21",
+  "onGit": true,
+  "subver": [
+    "1.21.1"
+  ],
+  "versionType": "beta",
+  "j21": true,
+  "depProjects": [
+	{
+      "slug": "create",
+      "type": "requiredDependency"
+    },
+	{
+      "slug": "create-aeronautics",
+      "type": "requiredDependency"
+    },
+    {
+      "slug": "applied-energistics-2",
+      "type": "optionalDependency"
+    },
+    {
+      "slug": "refined-storage",
+      "type": "optionalDependency"
+    },
+    {
+      "slug": "cc-tweaked",
+      "type": "optionalDependency"
+    }
+  ]
+}
